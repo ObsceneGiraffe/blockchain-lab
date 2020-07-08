@@ -25,4 +25,22 @@ A want to be able to monitor each node in the blockchain
 
 # 2020-07-05
 
-looking into tools for the project cargo fuzz
+Reasearched more tools for the project: [cargo fuzz][cargo-fuzz-home] and scanned the associated [book][rust-fuzz-book].
+
+Started reading the [protocol][bitcoin-docs-protocol] and [core][bitcoin-docs-core-overview] documentation of Bitcoin to compare it with the [Rust blockchain tutorial][rust-blockchain-tutorial]
+
+[bitcoin-docs-protocol]: https://en.bitcoin.it/wiki/Protocol_documentation
+[bitcoin-docs-core-overview]: https://en.bitcoin.it/wiki/Bitcoin_Core_0.11_(ch_1):_Overview
+[cargo-fuzz-home]: https://github.com/rust-fuzz/cargo-fuzz
+[rust-fuzz-book]: https://rust-fuzz.github.io/book/cargo-fuzz.html
+
+# 2020-07-06
+
+Read the docs on Bitcoin [target][bitcoin-docs-target] and [difficulty][bitcoin-docs-difficulty].
+
+Researched how Substrate represents the [256 bit ints][substrate-uint.rs] for hashing and difficulty.
+
+[substrate-uint.rs]: https://github.com/paritytech/parity-common/blob/master/uint/src/uint.rs
+[bitcoin-docs-target]: https://en.bitcoin.it/wiki/Target
+[bitcoin-docs-difficulty]: https://en.bitcoin.it/wiki/Difficulty
+
